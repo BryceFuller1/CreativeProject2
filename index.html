@@ -1,49 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Interneting is Easy!</title>
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Lab 2</title>
   </head>
   <body>
-    <h1>Interneting is easy!</h1>
-    <p>First, we need to learn some basic HTML.</p>
 
-    <h2>Headings</h2>
-    <p>Headings define the outline of your site. There are six levels of headings</p>
+    <h1 class="title">Weather Report</h1>
 
-    <h2>Lists</h2>
+    
 
-    <p>This is how you  make an unordered list:</p>
+    <div class="container">
+         <div class="row justify-content-md-center">
+          <div class="col-md-auto">
+            <p class="sup"> Current temperature </p>
+            <p></p>
 
-    <ul>
-      <li>Add a "ul" element (it stands for unordered list)</li>
-      <li>Add each item in its own "li" element</li>
-      <li>They don't need to be in any particular order</li>
-    </ul>
+            <div id="gameResults">
+          	</div>
+          </div>
+          <div class="col-md-1">
+          </div>
+           <div class="col-md-auto">
+            <p class="future">Weather for the next 5 days</p>
+            <p></p>
 
-    <ol>
-      <li>Notice the new "ol" element wrapping everything</li>
-      <li>But, the list item elements are the same</li>
-      <li>Also notice how the numbers increment on their own</li>
-      <li>You should be noticing things in this precise order, because this is an ordered list</li>
-    </ol>
+          </div>
+        </div>
+    </div>
 
-    <h2>Inline elements</h2>
 
-    <p><em>Sometimes</em>, you need to draw attention to a particular word or phrase.</p>
-    <p>Other times you need to <strong>strong</strong>ly emphasize the importance
-      of a word or phrase.</p>
-    <p><em><strong>And sometimes you need to shout!</strong></em></p>
 
-    <h2>Empty Elements</h2>
 
-    <p>Thanks for reading! Interneting should be getting easier now.</p>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
+    <script text="type/javascript" src="/script.js">
+    </script>
 
-    <p>Regards,<br/>
-      The Authors</p>
+    <div class="footer">
+      <a href="https://github.com/BYU-CS-260-Winter-2019/lab-2-BryceFuller1">My github</a>
+    </div>
 
-    <hr/>
-
-    <p>P.S. This page might look like crap, but we'll learn how to fix that with some CSS soon.</p>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
   </body>
 </html>
