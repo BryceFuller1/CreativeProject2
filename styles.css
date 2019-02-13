@@ -33,9 +33,19 @@ body {
   font-size: 25px;
 }
 
+.box
+{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
 
 
-
+.trivz
+{
+  
+  font-size: 25px;
+}
 
 .sup
 {
