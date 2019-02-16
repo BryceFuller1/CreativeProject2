@@ -41,11 +41,13 @@ function myFunction() {
                     theString += "<p class=\"garz\"> </p>";
                 }
 
-                theString += "<p class=\"answerz\">Ansers for those who do not know:</p>";
+                theString += "<p class=\"answerz\">Answers for those who do not know:</p>";
                 for (let i=0; i < json.results.length; i++)
                 {
                   theString += "<p>" + (i+1) + ". " + json.results[i].correct_answer + "</p>";
                 }
+
+                theString += "<p class=\"trivz\"> Click the button again for more trivia</p>";
 
               document.getElementById("gameResults").innerHTML = theString;
             });
