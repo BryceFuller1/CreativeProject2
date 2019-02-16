@@ -4,7 +4,8 @@
   text-align: center;
   padding-bottom: 25px;
   padding-top: 10px;
-  border-bottom: 1px solid #5D6063;
+  border-bottom: 1px solid #00FFFF;
+  font-style: italic;
 }
 
 body {
